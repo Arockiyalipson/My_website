@@ -9,7 +9,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./image/lipson_s_lab_PCB_transparent.png" /> <!--browser tab Wepage icon-->
+    <link rel="icon" href="./image/lipson_s_lab_PCB_transparent.png" />
+    <!--browser tab Wepage icon-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -31,8 +32,9 @@
       <nav>
         <ul>
           <li><a id="nav_bar_1" href="#first_page">Home</a></li>
-          <li><a id="nav_bar_2" href="index1.html">my work</a></li>
-          <li><a id="nav_bar_3" href="#third_page">Contact</a></li>
+          <li><a id="nav_bar_2" href="index2.html">About</a></li>
+          <li><a id="nav_bar_3" href="index1.html">my work</a></li>
+          <li><a id="nav_bar_4" href="#third_page">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -88,77 +90,45 @@
 
     <!-- second page -->
     <section class="second_page" id="second_page">
-      <div class="me" id="me">
-        <div class="container1">
-          <h1>About me</h1>
-          <p>
-            I am an embedded hardware designer specializing in PCB design,
-            currently working on advanced Battery Management Systems (BMS) and
-            motor controllers. My passion lies in transforming IoT ideas into
-            reality, developing innovative hardware, and writing firmware for
-            ESP32. Proficient in using KiCad and Altium for PCB design, I also
-            excel in C programming, Python scripting, and creating comprehensive
-            unit tests. My skills extend to documentation using Overleaf and
-            meticulous hardware debugging. Driven by a commitment to
-            technological innovation, I strive to create efficient, reliable
-            systems that solve real-world problems and enhance everyday life.
-            Let's turn ideas into reality together!
-          </p>
-          <div class="resume" id="resume">
-            <!--make this as a button-->
-            <p id="down_resume">
-              click download to get my resume
-              <a
-                href="./Documents/Arockiya_Lipson.pdf"
-                class="doc"
-                id="doc"
-                target="_blank"
-                rel="noreferrer"
-                >download</a
-              >
-            </p>
-          </div>
-          <div class="tools" id="tools">
-            <!-- image for tools i use  -->
-          </div>
-          <p><a href="./index1.html">click here</a> to view my project page</p>
-          <!--make this as a button-->
+      <div class="someproj" id="someproj">
+        <!-- add some projects -->
+        <div class="esp_relay" id="esp_relay">
+          <a href="https://github.com/Arockiyalipson/PCB_design/tree/5a18d29c5b5d4feb64cd3d87dd4a0352e9904526/ESP32_Relay_Switch" class="relay" id="relay"> <img src="./project_images/ESP_Relay.png" alt="image not found" class="relay" id="relay" width="200px" height="100px">
+          <p class="intro_relay" id="intro_relay">ththththththth</p></a>
+        </div>
+        <div class="stm32_BLE" id="stm32_BLE">
+          <a
+            href="https://github.com/Arockiyalipson/PCB_design/tree/5a18d29c5b5d4feb64cd3d87dd4a0352e9904526/STM32_BLE"
+            class="ble"
+            id="ble"
+          >
+            <img
+              src="./project_images/STM32_BLE.png"
+              alt="not found"
+              class="stm32"
+              id="stm32"
+              width="200px"
+              height="100px"
+            />
+            <p class="stmble" id="stmble">hyfebfebfebfewbfefbewh <br> fbhfbewhfbhwfb</p>
+          </a>
         </div>
       </div>
+      <p class="project_page" id="project_page">
+        See a list of all my project<a href="./index1.html">
+          On my project page</a
+        >
+      </p>
+      <!--make this as a button-->
     </section>
 
     <!-- third  page -->
     <section class="third_page" id="third_page">
       <div class="contact" id="contact">
-        <form action="" method="post">
-          <!--contact form -->
-          <input
-            type="text"
-            name="name"
-            id="name"
-            class="name"
-            placeholder="Your Name"
-          /><br /><br />
-          <input
-            type="email"
-            id="subject"
-            class="sub"
-            placeholder="your Email"
-          /><br /><br />
-          <textarea
-            name="inputtext"
-            id="text"
-            class="text"
-            placeholder="Your Message"
-          ></textarea
-          ><br /><br />
-          <input type="submit" id="submit" class="submit" /><br /><br />
-        </form>
+        <a href="mailto:arolipson@gmail.com" class="mail" id="mail"
+          >send me mail
+        </a>
       </div>
-      <p class="end" id="end">
-        <!-- footer-->
-        Copyright © 2024 lipson's Lab. created by myself
-      </p>
     </section>
   </body>
 </html>

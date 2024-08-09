@@ -20,5 +20,19 @@
         "Arduino":"https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg",
         "Platform_io":"https://upload.wikimedia.org/wikipedia/commons/c/cd/PlatformIO_logo.svg",
         "ESP_IDF":""
+    },
+    "git-hub_projrct_links_Hardware":{
+        "STM32_breakout":"https://github.com/Arockiyalipson/PCB_design/tree/5a18d29c5b5d4feb64cd3d87dd4a0352e9904526/STM_32",
+        "STM32_BLE":"https://github.com/Arockiyalipson/PCB_design/tree/5a18d29c5b5d4feb64cd3d87dd4a0352e9904526/STM32_BLE",
+        "STM32_RF":"https://github.com/Arockiyalipson/PCB_design/tree/5a18d29c5b5d4feb64cd3d87dd4a0352e9904526/STM32_RF",
+        "ESP32_Relay":"https://github.com/Arockiyalipson/PCB_design/tree/5a18d29c5b5d4feb64cd3d87dd4a0352e9904526/ESP32_Relay_Switch",
+        "Asterk_motor_controller":"",
+        "small_buck_converter":"https://github.com/Arockiyalipson/PCB_design/tree/5a18d29c5b5d4feb64cd3d87dd4a0352e9904526/Buck_Converter",
+        "STM32_motor_controller":"",
+        "FPGA based design":"",
+        "NXP_BMS":""
+    },
+    "git-hub-project_links_Software":{
+        "IOT-project":"https://github.com/Arockiyalipson/IOT_project/tree/58e10b361ff2491605b93fc821397b8f62c333cd/Smart_helmet_with_Land_slide_detection"
     }
 }
