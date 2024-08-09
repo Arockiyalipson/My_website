@@ -1,0 +1,164 @@
+<!-- Things to add to this page 
+1. tools Logo
+2. back to top  button
+3. parralax effect 
+4. Redesign nav bar  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./image/lipson_s_lab_PCB_transparent.png" /> <!--browser tab Wepage icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./Script.js"></script>
+    <title>lipson's lab</title>
+  </head>
+  <body>
+    <!-- Header nav_bar-->
+    <header>
+      <div class="logo" id="logo">
+        <img
+          src="./image/lipson_s_lab_PCB.png"
+          alt="image not available"
+          class="lipson_lab"
+          id="lipson_lab"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a id="nav_bar_1" href="#first_page">Home</a></li>
+          <li><a id="nav_bar_2" href="index1.html">my work</a></li>
+          <li><a id="nav_bar_3" href="#third_page">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- first page -->
+    <section class="first_page" id="first_page">
+      <div id="welcome" id="welcome">
+        <div class="container" id="container">
+          <h1 class="intro" id="intro">
+            Hi
+            <p class="change" id="change">Good Morning</p>
+          </h1>
+          <!-- greeting need to change based on the viewer time line any where from the world  -->
+          <h1 class="name" id="name">I am Lipson</h1>
+          <h1 class="abtme" id="abtme">
+            A full-time Embedded systems techie and part-time content writer
+          </h1>
+          <div class="link">
+            <a
+              href="https://www.linkedin.com/in/arockiya-lipson-458b12214/"
+              class="fa fa-linkedin"
+              id="linkedin"
+              target="_blank"
+              rel="noreferrer"
+            ></a>
+            <a
+              href=""
+              class="fa fa-instagram"
+              id="instagram"
+              target="_blank"
+              rel="noreferrer"
+            ></a>
+            <a
+              href="https://github.com/Arockiyalipson"
+              class="fa fa-github"
+              id="github"
+              target="_blank"
+              rel="noreferrer"
+            ></a>
+          </div>
+        </div>
+        <div class="myimage" id="myimage">
+          <div class="image">
+            <img
+              src="./image/website_image .jpg"
+              alt="not available"
+              width="200px"
+              height="200px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- second page -->
+    <section class="second_page" id="second_page">
+      <div class="me" id="me">
+        <div class="container1">
+          <h1>About me</h1>
+          <p>
+            I am an embedded hardware designer specializing in PCB design,
+            currently working on advanced Battery Management Systems (BMS) and
+            motor controllers. My passion lies in transforming IoT ideas into
+            reality, developing innovative hardware, and writing firmware for
+            ESP32. Proficient in using KiCad and Altium for PCB design, I also
+            excel in C programming, Python scripting, and creating comprehensive
+            unit tests. My skills extend to documentation using Overleaf and
+            meticulous hardware debugging. Driven by a commitment to
+            technological innovation, I strive to create efficient, reliable
+            systems that solve real-world problems and enhance everyday life.
+            Let's turn ideas into reality together!
+          </p>
+          <div class="resume" id="resume">
+            <!--make this as a button-->
+            <p id="down_resume">
+              click download to get my resume
+              <a
+                href="./Documents/Arockiya_Lipson.pdf"
+                class="doc"
+                id="doc"
+                target="_blank"
+                rel="noreferrer"
+                >download</a
+              >
+            </p>
+          </div>
+          <div class="tools" id="tools">
+            <!-- image for tools i use  -->
+          </div>
+          <p><a href="./index1.html">click here</a> to view my project page</p>
+          <!--make this as a button-->
+        </div>
+      </div>
+    </section>
+
+    <!-- third  page -->
+    <section class="third_page" id="third_page">
+      <div class="contact" id="contact">
+        <form action="" method="post">
+          <!--contact form -->
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="name"
+            placeholder="Your Name"
+          /><br /><br />
+          <input
+            type="email"
+            id="subject"
+            class="sub"
+            placeholder="your Email"
+          /><br /><br />
+          <textarea
+            name="inputtext"
+            id="text"
+            class="text"
+            placeholder="Your Message"
+          ></textarea
+          ><br /><br />
+          <input type="submit" id="submit" class="submit" /><br /><br />
+        </form>
+      </div>
+      <p class="end" id="end">
+        <!-- footer-->
+        Copyright © 2024 lipson's Lab. created by myself
+      </p>
+    </section>
+  </body>
+</html>
