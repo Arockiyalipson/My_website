@@ -3,6 +3,7 @@
 2. back to top  button
 3. parralax effect 
 4. Redesign nav bar  -->
+<!-- This page is main page  -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,30 +16,35 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>lipson's lab</title>
     <!-- <script src="./Script.js"></script> -->
   </head>
   <body>
     <!-- Header nav_bar-->
     <header>
-      <div class="logo" id="logo">
+      <ul>
         <img
-          src="./image/lipson_s_lab_PCB.png"
+          src="./image/lipson_s_lab_PCB_transparent.png"
           alt="image not available"
           class="lipson_lab"
           id="lipson_lab"
+          width="100px"
         />
-      </div>
-      <nav>
-        <ul>
-          <li><a id="nav_bar_1" href="#first_page">Home</a></li>
-          <li><a id="nav_bar_2" href="index2.html">About</a></li>
-          <li><a id="nav_bar_3" href="index1.html">my work</a></li>
-          <li><a id="nav_bar_4" href="#third_page">Contact</a></li>
-        </ul>
-      </nav>
+        <li style="float: right"><a id="nav_bar_2" href="">Blog</a></li>
+        <li style="float: right">
+          <a id="nav_bar_3" href="index2.html">my work</a>
+        </li>
+        <li style="float: right">
+          <a id="nav_bar_2" href="index1.html">About</a>
+        </li>
+        <li style="float: right">
+          <a id="nav_bar_1" href="#first_page">Home</a>
+        </li>
+      </ul>
     </header>
     <!-- first page -->
+     <section class="fullpage" id="fullpage">
     <section class="first_page" id="first_page">
       <div id="welcome" id="welcome">
         <div class="container" id="container">
@@ -50,8 +56,7 @@
               <img
                 src="./image/use_website.jpg"
                 alt="not available"
-                width="1000px"
-                height="550px"
+                width="700"
               />
             </div>
           </div>
@@ -138,11 +143,14 @@
     <!-- third  page -->
     <section class="third_page" id="third_page">
       <div class="contact" id="contact">
+        <p id="thanks"> <p class="icon">👋</p> Thanks for visiting my site!</p>
+        <p class="glad">Glad to have you here</p>
         <a href="mailto:arolipson@gmail.com" class="mail" id="mail"
-          >send me mail
+          >send me an email
         </a>
       </div>
     </section>
+     </section>
     <script src="./Script.js"></script>
   </body>
 </html>
